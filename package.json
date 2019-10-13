@@ -1,10 +1,9 @@
 {
   "name": "shangke",
+  "private": true,
   "version": "0.0.0",
   "description": "",
-  "files": [
-    "lib"
-  ],
+  "main": "app",
   "repository": {
     "url": "imyelo/shangke",
     "type": "git"
@@ -25,5 +24,10 @@
     "lint-staged": "^8.2.1",
     "np": "^5.0.3",
     "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "config": "^3.2.3",
+    "got": "^9.6.0",
+    "node-cron": "^2.0.3"
   }
 }
